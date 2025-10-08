@@ -2,6 +2,9 @@
 
 Lyricit is a simple command-line tool that displays lyrics from an LRC file in a karaoke-style. It's written in Go and supports two modes: simple line-by-line display and a character-by-character streaming mode.
 
+## What's the pain
+The current implementation requires the user to manually start the music and the lyricit program at the same time to have a synchronized karaoke experience. This can be tricky and inconvenient.
+
 ## Features
 
 *   Parses LRC files with timestamps.
@@ -73,7 +76,7 @@ Running `./lyricit -stream sample.lrc` will display:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+Contributions are welcome! Please feel free to submit a pull request or open an issue. We are actively looking for ideas and contributions to solve the manual synchronization pain point.
 
 ## License
 
