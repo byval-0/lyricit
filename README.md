@@ -5,6 +5,14 @@ Lyricit is a simple command-line tool that displays lyrics from an LRC file in a
 ## What's the pain
 The current implementation requires the user to manually start the music and the lyricit program at the same time to have a synchronized karaoke experience. This can be tricky and inconvenient.
 
+## Preview
+
+### Stream Mode
+![Stream Mode](preview/lyricit-stream-sample.gif)
+
+### Notification Mode
+![Notification Mode](preview/lyricit-notify-sample.gif)
+
 ## Features
 
 *   Parses LRC files with timestamps.
